@@ -1,0 +1,24 @@
+img{
+    width:20px;
+    height:20px;
+}
+
+.songsInfo{
+    font-size:12px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px gray solid;
+    margin:2px;
+    &:hover{
+        background: rgba(255, 255, 255, 0.082);
+    }
+    .artist{
+        width:150px;
+    }
+    .title{
+        width:300px;
+    }
+
+}
+

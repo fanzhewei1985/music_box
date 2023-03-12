@@ -1,0 +1,70 @@
+$clrText:white;
+$sltHeilight:rgb(26,210,251);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position:relative;
+  padding:0;
+  background:linear-gradient(to bottom,black,rgb(48, 48, 48));
+  // height:100vh;
+  box-sizing:border-box;
+  color:$clrText
+}
+
+section{
+  text-align:center;
+  margin:0 auto;
+  padding:10px 0;
+  overflow:hidden;
+  width:100%;
+}
+
+.container{
+  position:relative;
+margin:5px auto;
+display:flex;
+align-items: center;
+justify-content: center;
+// padding:0 30px;
+flex-direction: column;
+}
+
+.row{
+  margin-bottom:30px;
+  display: flex;
+  justify-content: center;
+  margin:20px 0;
+  flex-wrap: wrap;
+  max-width:1200px;
+  width:100%;
+  // border:1px red solid;
+  padding:3px 15px;
+  // border-radius: 15px;
+  // background-color: rgba(0, 0, 0, 0.418);
+}
+
+.listContainer{
+  width:100%;
+  // border:1px green solid;
+  padding:1px;
+}
+.title{
+  // border:1px gray solid; 
+  color:$sltHeilight;
+  padding:0;
+  margin-bottom:3px;
+}
+h3{
+  margin:8px;
+}
+.songList{
+  // border-top: 3px red solid;
+}
+
+
+//这里是全局样式，全部都可以使用。
